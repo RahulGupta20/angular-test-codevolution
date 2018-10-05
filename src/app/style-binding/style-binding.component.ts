@@ -19,7 +19,7 @@ export class StyleBindingComponent implements OnInit {
   public isSpecial = true;
   public highlightColor = 'yellow';
   public titleStyles = {
-    color: 'blue',
+    color: 'pink',
     fontStyle: 'italic'
   }
 
