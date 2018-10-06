@@ -8,9 +8,7 @@ import { Component, OnInit } from '@angular/core';
     <h2 [style.color]="highlightColor">HighLight text color</h2>
     <h2 [ngStyle]="titleStyles">Style Binding 3</h2>
   `,
-  styles: [`
-    
-  `]
+  styles: [``]
 })
 export class StyleBindingComponent implements OnInit {
 

@@ -6,6 +6,8 @@ import { TestComponent } from './test/test.component';
 import { BindingComponent } from './binding/binding.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
+import { BindingV10Component } from './binding-v10/binding-v10.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
     TestComponent,
     BindingComponent,
     ClassBindingComponent,
-    StyleBindingComponent
+    StyleBindingComponent,
+    EventBindingComponent,
+    BindingV10Component
   ],
   imports: [
     BrowserModule
