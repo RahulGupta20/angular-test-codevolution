@@ -13,6 +13,10 @@ import { FormsModule } from '@angular/forms';
 import { StucturalDirectivesComponent } from './stuctural-directives/stuctural-directives.component';
 import { StructuralDirectiveBNgSwitchDirectiveComponent } from './structural-directive-b-ng-switch-directive/structural-directive-b-ng-switch-directive.component';
 import { StructuralDirectiveCNgForDirectiveComponent } from './structural-directive-c-ng-for-directive/structural-directive-c-ng-for-directive.component';
+import { ComponentInteractionV15Component } from './component-interaction-v15/component-interaction-v15.component';
+import { EmployeeListServicesV17Component } from './employee-list-services-v17/employee-list-services-v17.component';
+import { EmployeeDetailServicesV17Component } from './employee-detail-services-v17/employee-detail-services-v17.component';
+import { EmployeeService } from './employee.service';
 
 @NgModule({
   declarations: [
@@ -26,13 +30,18 @@ import { StructuralDirectiveCNgForDirectiveComponent } from './structural-direct
     TwoWayBindingComponent,
     StucturalDirectivesComponent,
     StructuralDirectiveBNgSwitchDirectiveComponent,
-    StructuralDirectiveCNgForDirectiveComponent
+    StructuralDirectiveCNgForDirectiveComponent,
+    ComponentInteractionV15Component,
+    EmployeeListServicesV17Component,
+    EmployeeDetailServicesV17Component
   ],
   imports: [
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    EmployeeService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

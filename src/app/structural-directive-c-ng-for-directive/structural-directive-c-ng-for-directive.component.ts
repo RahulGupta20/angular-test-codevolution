@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StructuralDirectiveCNgForDirectiveComponent implements OnInit {
 
-  public colors = ["red", "blue", "green", "yellow"];
+  public colors = ['red', 'blue', 'green', 'yellow'];
 
   constructor() { }
 

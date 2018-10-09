@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rahul';
+  public name = 'ek file se dusar file me data tane k';
 }
